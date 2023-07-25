@@ -1,0 +1,108 @@
+body{
+    background: #000428;  
+    background: -webkit-linear-gradient(to right, #004e92, #000428); 
+    background: linear-gradient(to right, #004e92, #000428);
+}
+.header{
+    width:100%;
+    height: 50px;
+     
+}
+.insideheader{
+    color:white;
+    font-size: 37px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding: 30px;
+}
+
+.container{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.calculator{
+    border:2px solid white;
+    margin-top: 20px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(24, 17, 17, 0.345);
+    box-shadow: 0px 10px 20px rgba(0, 0, 8, 0.975);
+}
+input{
+    border-radius: 10px;
+    width: 256px;
+    border:2px solid black;
+    padding: 10px;
+    margin:10px;
+    box-shadow: 0px 3px 15px rgba(52, 51, 51, 0.805);
+    font-size: 30px;
+    text-align: right;
+    cursor: pointer;
+    color:black;
+}
+
+input::placeholder{
+    color: rgba(159, 159, 159, 0.964);
+}
+
+button{
+    
+    border:1px solid white;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 19px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 27px;
+    box-shadow: 0px 3px 15px rgba(9, 9, 9, 0.959);
+    cursor: pointer;
+    background-color:rgba(35, 34, 34, 0.436) ;
+    color:white;
+
+}
+
+button:hover{
+    background-color:rgba(209, 210, 211, 0.566);
+    color:black;
+
+}
+
+.operationBtn ,#dec{
+    border:1.5px solid white;
+    background-color:rgba(0, 0, 0, 0.393);
+    color:rgb(252, 127, 2) ;
+    font-weight: bolder;
+}
+
+.operationBtn:hover ,#dec:hover{
+    background-color: rgba(0, 0, 0, 0.655);
+    color:white;
+}
+
+
+.equalBtn{
+    border:2px solid white;
+    background-color: rgba(245, 128, 11, 0.933);
+    border-radius: 20px;
+    width: 135px;
+    font-weight: bolder;
+}
+
+.equalBtn:hover{
+    background-color: rgba(190, 98, 5, 0.879);
+}
+
+#footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    display:block;
+}
